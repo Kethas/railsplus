@@ -1,0 +1,8 @@
+item.ingot_steel.name=Steel Ingot
+item.coke.name=Coke
+item.rail_steel.name=Steel Rail
+tile.rail_steel.name=Steel Rail
+item.rail_steel_powered.name=Powered Steel Rail
+tile.rail_steel_powered.name=Powered Steel Rail
+itemGroup.rails_plus=Rails Plus
+itemGroup.rails_plus_transportation=Rails Plus Transportation

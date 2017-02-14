@@ -1,0 +1,16 @@
+[
+{
+  "modid": "railsplus",
+  "name": "RailsPlus",
+  "description": "Adds more rails to the game!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Kethas"],
+  "credits": "Me, myself, and I",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
