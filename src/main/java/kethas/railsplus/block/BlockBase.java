@@ -18,12 +18,12 @@ public abstract class BlockBase extends Block{
 
     public BlockBase(String name, Material materialIn) {
         super(materialIn);
-        setUnlocalizedName(name);
+        setUnlocalizedName(RailsPlus.MODID + "." + name);
         setRegistryName(new ResourceLocation(RailsPlus.MODID, name));
         this.name = name;
         itemBlock = new ItemBlock(this);
         itemBlock.setRegistryName(name);
-        itemBlock.setUnlocalizedName(name);
+        itemBlock.setUnlocalizedName(RailsPlus.MODID + "." + name);
     }
 
     public BlockBase(String name, Material blockMaterialIn, MapColor blockMapColorIn) {

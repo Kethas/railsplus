@@ -26,12 +26,12 @@ public abstract class RailBase extends BlockRailBase {
     public RailBase(String name) {
         super(false);
         setDefaultState(this.blockState.getBaseState().withProperty(getShapeProperty(), BlockRailBase.EnumRailDirection.NORTH_SOUTH));
-        setUnlocalizedName(name);
+        setUnlocalizedName(RailsPlus.MODID + "." + name);
         setRegistryName(new ResourceLocation(RailsPlus.MODID, name));
         this.name = name;
         itemBlock = new ItemBlock(this);
         itemBlock.setRegistryName(new ResourceLocation(RailsPlus.MODID, name));
-        itemBlock.setUnlocalizedName(name);
+        itemBlock.setUnlocalizedName(RailsPlus.MODID + "." + name);
     }
 
     @Override

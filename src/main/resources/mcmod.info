@@ -7,9 +7,9 @@
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["Kethas"],
-  "credits": "Me, myself, and I",
-  "logoFile": "",
+  "authorList": ["Kethas", "Kreezxil"],
+  "credits": "",
+  "logoFile": "assets/railsplus/icon.png",
   "screenshots": [],
   "dependencies": []
 }

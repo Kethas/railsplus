@@ -14,7 +14,7 @@ public abstract class ItemBase extends Item {
     public ItemBase(String name){
         setRegistryName(new ResourceLocation(RailsPlus.MODID, name));
         this.name = name;
-        super.setUnlocalizedName(name);
+        super.setUnlocalizedName(RailsPlus.MODID + "." + name);
     }
 
     public String getName() {
