@@ -1,0 +1,23 @@
+{
+	"type": "forge:ore_shaped",
+	"pattern": [
+		"rtr",
+		"btb",
+		"rtr"
+	],
+	"key": {
+		"r": {
+			"item": "minecraft:redstone"
+		},
+		"t": {
+			"item": "railsplus:rail_steel"
+		},
+		"b": {
+			"item": "minecraft:blaze_powder"
+		}
+	},
+	"result": {
+		"item": "railsplus:rail_steel_powered",
+		"count": 5
+	}
+}

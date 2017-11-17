@@ -1,0 +1,9 @@
+ {
+    "variants": {
+        "facing=north": { "model": "railsplus:blast_furnace" },
+        "facing=south": { "model": "railsplus:blast_furnace", "y": 180 },
+        "facing=west":  { "model": "railsplus:blast_furnace", "y": 270 },
+        "facing=east":  { "model": "railsplus:blast_furnace", "y": 90 },
+        "inventory": { "model": "railsplus:blast_furnace" }
+    }
+}

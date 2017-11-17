@@ -1,0 +1,20 @@
+{
+	"type": "forge:ore_shaped",
+	"pattern": [
+		"s s",
+		"sws",
+		"s s"
+	],
+	"key": {
+		"s": {
+			"item": "railsplus:ingot_steel"
+		},
+		"w": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "railsplus:rail_steel",
+		"count": 5
+	}
+}
