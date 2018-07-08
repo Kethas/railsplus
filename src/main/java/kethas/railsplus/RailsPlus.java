@@ -15,7 +15,7 @@ public class RailsPlus {
 
     public static final String MODID = "railsplus";
     public static final String NAME = "Rails Plus";
-    public static final String VERSION = "1.0.0";
+    public static final String VERSION = "1.0.2";
 
     @SidedProxy(clientSide = "kethas.railsplus.proxy.ClientProxy", serverSide = "kethas.railsplus.proxy.ServerProxy", modId = MODID)
     public static CommonProxy proxy;

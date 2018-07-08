@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "rails",
+  "pattern": [
+    "III",
+    "ICI",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "railsplus:coke"
+    }
+  },
+  "result": {
+    "item": "railsplus:ingot_steel",
+    "count": 4
+  }
+}

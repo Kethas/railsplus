@@ -42,6 +42,7 @@ public class ClientProxy extends CommonProxy {
     private void registerRailRenderers() {
         registerRenderer(railSteel.getItemBlock(), railSteel.getName());
         registerRenderer(railSteelPowered.getItemBlock(), railSteelPowered.getItemBlock().getRegistryName().getResourcePath());
+        registerRenderer(railSteelBrake.getItemBlock(), railSteelBrake.getItemBlock().getRegistryName().getResourcePath());
     }
 
 

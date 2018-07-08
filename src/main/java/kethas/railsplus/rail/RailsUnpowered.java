@@ -1,20 +1,18 @@
 package kethas.railsplus.rail;
 
-import java.util.List;
-
-import org.lwjgl.input.Keyboard;
-
-import kethas.railsplus.client.IHasModel;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.item.EntityMinecart;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import org.lwjgl.input.Keyboard;
+
+import java.util.List;
 
 /**
  * Created by Kethas on 11/02/2017.
  */
-public class RailsUnpowered extends RailBase implements IHasModel {
+public class RailsUnpowered extends RailBase {
 
     public RailsUnpowered(String name) {
         super(name);
@@ -40,5 +38,5 @@ public class RailsUnpowered extends RailBase implements IHasModel {
             tooltip.add("\u00A79Bugginess: Buggy");
         }
     }
-    
+
 }

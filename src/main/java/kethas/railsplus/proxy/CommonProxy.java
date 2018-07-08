@@ -4,6 +4,7 @@ import kethas.railsplus.fuel.FuelHandler;
 import kethas.railsplus.item.ItemCoke;
 import kethas.railsplus.item.ItemSteelIngot;
 import kethas.railsplus.rail.RailSteel;
+import kethas.railsplus.rail.RailSteelBrake;
 import kethas.railsplus.rail.RailSteelPowered;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
@@ -39,6 +40,7 @@ public class CommonProxy {
     //rails
     public static RailSteel railSteel;
     public static RailSteelPowered railSteelPowered;
+    public static RailSteelBrake railSteelBrake;
 
     public void preInit(FMLPreInitializationEvent event) {
         railsPlus = new CreativeTabs("railsplus.general") {
@@ -60,6 +62,7 @@ public class CommonProxy {
 
         railSteel = new RailSteel();
         railSteelPowered = new RailSteelPowered();
+        railSteelBrake = new RailSteelBrake();
 
         fuelHandler = new FuelHandler();
         GameRegistry.registerFuelHandler(fuelHandler);
@@ -84,6 +87,7 @@ public class CommonProxy {
 
         registry.register(railSteel.getItemBlock());
         registry.register(railSteelPowered.getItemBlock());
+        registry.register(railSteelBrake.getItemBlock());
     }
 
     @SubscribeEvent
@@ -92,6 +96,7 @@ public class CommonProxy {
 
         registry.register(railSteel);
         registry.register(railSteelPowered);
+        registry.register(railSteelBrake);
     }
 
     protected void registerRecipes() {
@@ -99,6 +104,6 @@ public class CommonProxy {
         OreDictionary.registerOre("coke", itemCoke);
 
         GameRegistry.addSmelting(Items.COAL, new ItemStack(itemCoke, 1), 0);
-        GameRegistry.addSmelting(Items.IRON_INGOT, new ItemStack(itemSteelIngot, 1), 0);
+        //GameRegistry.addSmelting(Items.IRON_INGOT, new ItemStack(itemSteelIngot, 1), 0);
     }
 }

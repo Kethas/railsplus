@@ -1,0 +1,6 @@
+{
+  "parent": "block/rail_raised_sw",
+  "textures": {
+    "rail": "railsplus:rails/rail_steel_brake_off"
+  }
+}
